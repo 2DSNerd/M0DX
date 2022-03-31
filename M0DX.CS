@@ -15,10 +15,18 @@ namespace HACKS
     Console.ReadKey();
     
     Console.Writeline("What Game Would You Like To Mod");
-    
+    Console.ReadLine();
+    if(awnser == "Minecraft")
+    {
+      Console.WriteLine("What Level Of Speed. (Goes From 1-1000)");
+    }
+    else{
+      Console.WriteLine("We DO NOT SUPPORT THAT GAME, ONLY BLOCK GAME");
+      Console.quit();
+    }
     Console.ReadLine();
     
-    Console.WriteLine("What Level Of Speed. (Goes From 1-1000)");
+   
     
     string userName = Console.ReadLine();
     
