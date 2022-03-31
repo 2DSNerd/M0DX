@@ -1,5 +1,5 @@
 # M0DX
-Cheating Softwere For Games,
+Cheating Softwere For MC,
 Not Lyable For You Getting Banned,
-Works In Most Games,
+Works In Minecraft,
 And Free To Use.
