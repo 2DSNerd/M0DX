@@ -1,47 +1,55 @@
 using System;
 
-namespace JAVA
+namespace HACKS
 {
   class Program
   {
     static void Main(string[] args)
    {
-     Console.WriteLine("Hit Enter To Play");
-     Console.ReadLine();
-   Console.WriteLine("What Numbered Month Di 9/11 Happen");
-   Console.ReadLine();
-   
-   if(answer == "9"){
-     Console.WriteLine("Correct");
-   }
-   
-   else(){
-     Console.WriteLine("Incorrect");
-   }
-   
-   Console.WriteLine("What Is 69 * 420 Is");
-   Console.ReadLine();
-    if(answer == "28980"){
-      Console.WriteLine("Correct");
+     console.Title = "MODX";
+     Console,ForegroundColor = ConsoleColor.Green;
+     Console.WindowHeight = 10;
+
+    Console.WriteLine("A Moding Softwere For MC");
+
+    Console.ReadKey();
+
+    Console.Writeline("What Game Would You Like To Mod");
+    Console.ReadLine();
+    if(awnser == "Minecraft")
+    {
+      Console.WriteLine("What Level Of Speed. (Goes From 1-1000)");
     }
-    
-    else(){
-      Console.WriteLine("Incorrect, It Was 22980");
+    else{
+      Console.WriteLine("We DO NOT SUPPORT THAT GAME, ONLY BLOCK GAME");
+      this.Close();
     }
-    
-  Console.WriteLine("Who");
-  Console.ReadLine();
-  
-  Console.WriteLine("ASKED ");
-  Console.WriteLine("HAR HAR HAR HAR HAR");
-  Console.ReadLine();
-  `
-  Console.WriteLine("Why Did The Chicken Cross The Road");
-  Console.ReadLine();
-  if(answer == "Suiside"){
-    Console.WriteLine("CORRECT")
+
+
+
+
+    string userName = Console.ReadLine();
+    Console.ReadLine();
+
+    Console.WriteLine("Current Speed Set To" + userName);
+    Console.ReadLine();
+    Console.WriteLine("Would You Like Some ESP As Well (Y/n)");
+
+    if(awnser == "Y"){
+    Console.WriteLine("ESP Enabled");
+   }
+   if(awnser == "N"){
+    Console.WriteLine("ESP Offer Declined");
   }
   else(){
-    Console.WriteLine("")
+    Console.WriteLine("That Is Not A Awnser To The Question.")
+    Console.WriteLine("CAN NOT COMPUTEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE");
+    break;
+    this.Close();
+
   }
+  Console.WriteLine("Time To Inject");
+  Console.WriteLine("Loading......");
+  break;
+  Console.WriteLine("This Softwere Is Now Inserted In To Minecraft")
 }
